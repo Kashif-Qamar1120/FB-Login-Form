@@ -1,0 +1,158 @@
+*{
+    width: auto;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+
+header{
+    display: flex;
+   background-color: #3B5999;
+    height: 15vh;
+}
+.fbh2{
+    color: whitesmoke;
+    margin-left: 9%;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+}
+
+header .divemail{
+    padding-left: 35%;
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 19px;
+}
+header .divemail a{
+
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+header .divemail .checkbox{
+    cursor: pointer;
+}
+
+header .divpass{
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 19px;
+    padding-right: 15%;
+}
+
+header .divpass a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+header .divpass button{
+    padding: 5px;
+    background-color  :#3B5988;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+section{
+    display: flex;
+    background-color: whitesmoke;
+   
+}
+
+section h2{
+    font-size: 45px;
+    margin-top: 65px;
+    margin-bottom: 35px;
+    padding-left: 45px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(30, 28, 28);
+}
+
+section .para p{
+    margin-left: 99px;
+    font-size: 34px;
+    font-weight:200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(70, 75, 79);
+    
+}
+section .para b{
+    color: rgb(30, 28, 28);
+}
+
+.forms .page h1{
+    font-size: 34px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 12px 0px;
+}
+.forms .page .sign{
+    font-size: 24px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 24px;
+    color: rgb(27, 24, 24);
+}
+
+#firstname,#lastname{
+    font-size: large;
+    width: 16rem;
+    margin-right: 15px;
+    padding-left: 15px;
+}
+#emails{
+    width: 33rem;
+    font-size: large;
+    padding-left: 15px;
+
+}
+#firstnames{
+    width: 33rem;
+    font-size: large;
+    padding-left: 15px;
+
+}
+
+.forms h3{
+    font-size: 23px;
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .forms select{
+    display: inline-block;
+    width: 60px;
+    font-size: 15px;
+    font-weight: 80px;
+    margin-bottom: 14px;
+ }
+
+ .forms .gender label{
+            font-size: 19px;
+            font-weight: bold;
+            margin: 4px 0px;
+ }
+ .forms .gender input{
+            cursor: pointer;
+ }
+form .lastpara{
+    color:rgb(70, 75, 79);
+    margin-bottom: 8px;
+}
+
+form button{
+    width: 44%;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: arial;
+    padding: 8px;
+   margin: 24px 0px 34px 0px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
